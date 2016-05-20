@@ -35,9 +35,13 @@
   },
   "dependencies": {
     "es6-promise": "^3.1.2",
+    "fs": "0.0.2",
+    "http2": "^3.3.4",
+    "path": "^0.12.7",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "systemjs": "^0.19.26",
-    "systemjs-builder": "^0.15.15"
+    "systemjs-builder": "^0.15.15",
+    "url": "^0.11.0"
   }
 }

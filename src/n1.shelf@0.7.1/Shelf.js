@@ -1,10 +1,10 @@
-import React, { Component } from 'vtex.react/react';
+import React, { Component } from 'npm.react/react';
 import { bye } from 'npm.lodash/lib';
 
-export default class App extends Component {
+export default class Shelf extends Component {
   render() {
     return (
-      <h1>{bye()}</h1>
+      <h1>Shelf settings: {this.props.settings.bar}</h1>
     );
   }
 }

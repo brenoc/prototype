@@ -1,0 +1,6 @@
+{
+  "map": {
+    "react": "npm.react@0.14.0/react.js",
+    "react-dom": "npm.react@0.14.0/react-dom.js"
+  }
+}

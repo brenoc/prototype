@@ -1,12 +1,11 @@
-import React from 'vtex.react/react.js';
-import ReactDOM from 'vtex.react/react-dom.js';
-import App from './App.js';
+import React from 'npm.react/react.js';
+import ReactDOM from 'npm.react/react-dom.js';
+import Placeholder from './Placeholder.js';
+import settings from './settings.js';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const route = window.storefront.route;
 
-setTimeout(() => {
-  System.import('n1.shelf/async.js', __moduleName)
-    .then((async) => {
-      async.default();
-    });
-}, 3000);
+ReactDOM.render(
+  <Placeholder id={route}/>,
+  document.getElementById('root')
+);

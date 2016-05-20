@@ -1,0 +1,6 @@
+{
+  "map": {
+    "npm.react": "npm.react@0.14.0",
+    "npm.lodash": "npm.lodash@4.12.0"
+  }
+}

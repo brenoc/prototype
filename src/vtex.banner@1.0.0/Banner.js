@@ -1,10 +1,10 @@
-import React, { Component } from 'vtex.react/react';
+import React, { Component } from 'npm.react/react';
 import { hello } from 'npm.lodash/lib';
 
-export default class App extends Component {
+export default class Banner extends Component {
   render() {
     return (
-      <h1>{hello()}</h1>
+      <h1>Banner settings: {this.props.settings.foo}</h1>
     );
   }
 }

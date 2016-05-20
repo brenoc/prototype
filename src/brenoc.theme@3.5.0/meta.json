@@ -1,0 +1,8 @@
+{
+  "map": {
+    "vtex.sdk": "vtex.sdk@1.0.0",
+    "n1.shelf": "n1.shelf@0.7.1",
+    "vtex.banner": "vtex.banner@1.0.0",
+    "npm.react": "npm.react@0.14.0"
+  }
+}
