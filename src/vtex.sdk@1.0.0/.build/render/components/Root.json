@@ -1,0 +1,6 @@
+{
+  "imports": [
+    "npm.react/react.js",
+    "vtex.sdk/Placeholder.js"
+  ]
+}

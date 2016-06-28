@@ -2,12 +2,34 @@ System.config({defaultJSExtensions: true});
 
 System.config({
   baseUrl: '/',
-  packageConfigPaths: [
-    'brenoc.theme@3.5.0/meta.json',
-    'vtex.banner@1.0.0/meta.json',
-    'n1.shelf@0.7.1/meta.json',
-    'vtex.sdk@1.0.0/meta.json'
-  ],
+  packages: {
+    'brenoc.theme@3.5.0': {
+      map: {
+        'vtex.sdk': 'vtex.sdk@1.0.0',
+        'n1.shelf': 'n1.shelf@0.7.1',
+        'vtex.banner': 'vtex.banner@1.0.0',
+        'npm.react': 'npm.react@0.14.0'
+      }
+    },
+    'n1.shelf@0.7.1/meta.json': {
+      map: {
+        'npm.lodash': 'npm.lodash@2.0.1',
+        'npm.react': 'npm.react@0.14.0'
+      }
+    },
+    'vtex.banner@1.0.0': {
+      map: {
+        'npm.lodash': 'npm.lodash@1.3.0',
+        'npm.react': 'npm.react@0.14.0'
+      }
+    },
+    'vtex.sdk@1.0.0/meta.json': {
+      map: {
+        'npm.react': 'npm.react@0.14.0',
+        'npm.lodash': 'npm.lodash@4.12.0'
+      }
+    }
+  },
   map: {
     'react': 'npm.react@0.14.0/react.js' // this avoids changing the source of React
   }

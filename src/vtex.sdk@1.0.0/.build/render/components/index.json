@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "npm.react/react.js",
+    "npm.react/react-dom.js",
+    "vtex.sdk/Placeholder.js",
+    "vtex.sdk/settings.js"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "imports": [
+    "npm.react/react.js",
+    "vtex.sdk/settings.js",
+    "vtex.sdk/contextify.js"
+  ]
+}
