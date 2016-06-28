@@ -11,7 +11,7 @@ System.config({
         'npm.react': 'npm.react@0.14.0'
       }
     },
-    'n1.shelf@0.7.1/meta.json': {
+    'n1.shelf@0.7.1': {
       map: {
         'npm.lodash': 'npm.lodash@2.0.1',
         'npm.react': 'npm.react@0.14.0'
@@ -23,7 +23,7 @@ System.config({
         'npm.react': 'npm.react@0.14.0'
       }
     },
-    'vtex.sdk@1.0.0/meta.json': {
+    'vtex.sdk@1.0.0': {
       map: {
         'npm.react': 'npm.react@0.14.0',
         'npm.lodash': 'npm.lodash@4.12.0'
